@@ -1,0 +1,52 @@
+﻿#pragma once
+
+#include "..\..\pch.h"
+
+
+/*!!DEFINE!!*/
+
+/*!!HELPER_DEF!!*/
+
+/*!!HELPER_INC!!*/
+
+#ifdef _MSC_VER
+	#pragma pack(push, 0x01)
+#endif
+
+namespace CG
+{
+//---------------------------------------------------------------------------
+// Classes
+//---------------------------------------------------------------------------
+
+// Class OodleNetworkHandlerComponent.OodleNetworkTrainerCommandlet
+// 0x0020 (FullSize[0x00A0] - InheritedSize[0x0080])
+class UOodleNetworkTrainerCommandlet : public UCommandlet
+{
+public:
+	bool                                               bCompressionTest;                                          // 0x0080(0x0001) (ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData_URAK[0x3];                                     // 0x0081(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	int                                                HashTableSize;                                             // 0x0084(0x0004) (ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	int                                                DictionarySize;                                            // 0x0088(0x0004) (ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	int                                                DictionaryTrials;                                          // 0x008C(0x0004) (ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	int                                                TrialRandomness;                                           // 0x0090(0x0004) (ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	int                                                TrialGenerations;                                          // 0x0094(0x0004) (ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               bNoTrials;                                                 // 0x0098(0x0001) (ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData_U1E8[0x7];                                     // 0x0099(0x0007) MISSED OFFSET (PADDING)
+
+
+	static UClass* StaticClass()
+	{
+		static auto ptr = UObject::FindClass("Class OodleNetworkHandlerComponent.OodleNetworkTrainerCommandlet");
+		return ptr;
+	}
+
+
+
+};
+
+}
+
+#ifdef _MSC_VER
+	#pragma pack(pop)
+#endif

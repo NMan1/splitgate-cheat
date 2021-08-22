@@ -14,6 +14,8 @@ for bypass i would recommend either finding one that disables the anti cheat or 
 u will not be able to compile without adding the ommited sdk files into the project
 download [sdk](https://www.unknowncheats.me/forum/splitgate/460440-splitgate-sdk.html) then extract and copy the files into SDK/SDK folder. 
 
+the game is also really bad so u will probaly be bored veyr fast ! 
+
 # img:
 
 <img src="https://i.imgur.com/3Q4FDyI.png">
